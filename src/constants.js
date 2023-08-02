@@ -11,6 +11,9 @@ export const COLORS = {
   secondary: 'hsl(240deg 60% 63%)',
 };
 
+
+
+
 export const WEIGHTS = {
   normal: 500,
   medium: 600,

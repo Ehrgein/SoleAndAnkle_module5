@@ -8,6 +8,9 @@ import UnstyledButton from '../UnstyledButton';
 import Icon from '../Icon';
 
 const SuperHeader = () => {
+
+  
+
   return (
     <Wrapper>
       <MarketingMessage>
@@ -32,6 +35,12 @@ const Wrapper = styled.div`
   height: 40px;
   padding-left: 32px;
   padding-right: 32px;
+
+  @media (max-width: 59.375rem) {
+    display: none;
+  }
+
+
 `;
 
 const MarketingMessage = styled.span`
